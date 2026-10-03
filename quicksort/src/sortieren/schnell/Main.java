@@ -1,0 +1,19 @@
+package sortieren.schnell;
+
+// sortieren.schnell.Main
+
+import java.util.Arrays;
+
+public class Main {
+    static void beispieleins() {
+	int[] unsortiert = {9,5,1,-1,51,521,19,2,6,111};
+
+	int[] sortiert = Schnellsortieren.sortiere(unsortiert);
+
+	System.out.println(Arrays.toString(sortiert));
+    }
+    
+    public static void main(String[] args) {
+	beispieleins();
+    }
+}
